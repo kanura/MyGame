@@ -1,2 +1,2 @@
 # MyGame
-This repository is for creating and practicing unity game by c#.
+This repository is for practice unity game creating by c#.
