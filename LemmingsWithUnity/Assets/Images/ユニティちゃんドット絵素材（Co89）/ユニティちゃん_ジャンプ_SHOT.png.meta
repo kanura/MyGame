@@ -1,7 +1,16 @@
 fileFormatVersion: 2
 guid: ba157d79492a285439ff7297d2f18f5e
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093_\u30B8\u30E3\u30F3\u30D7_SHOT_0"
+    21300002: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093_\u30B8\u30E3\u30F3\u30D7_SHOT_1"
+    21300004: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093_\u30B8\u30E3\u30F3\u30D7_SHOT_2"
+    21300006: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093_\u30B8\u30E3\u30F3\u30D7_SHOT_3"
+    21300008: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093_\u30B8\u30E3\u30F3\u30D7_SHOT_4"
+    21300010: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093_\u30B8\u30E3\u30F3\u30D7_SHOT_5"
+    21300012: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093_\u30B8\u30E3\u30F3\u30D7_SHOT_6"
+    21300014: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093_\u30B8\u30E3\u30F3\u30D7_SHOT_7"
+    21300016: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093_\u30B8\u30E3\u30F3\u30D7_SHOT_8"
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -15,7 +24,7 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
@@ -40,7 +49,7 @@ TextureImporter:
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 30
   alphaIsTransparency: 1
@@ -58,6 +67,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 20}
+        - {x: -27, y: -1}
+        - {x: -27, y: -16}
+        - {x: -24, y: -21}
+        - {x: -9, y: -27}
+        - {x: 16, y: -27}
+        - {x: 27, y: -10}
+        - {x: 27, y: 13}
+        - {x: 9, y: 20}
     - name: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093_\u30B8\u30E3\u30F3\u30D7_SHOT_1"
       rect:
         serializedVersion: 2
@@ -68,6 +87,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 24}
+        - {x: -21, y: 15}
+        - {x: -21, y: -21}
+        - {x: -7, y: -29}
+        - {x: 7, y: -29}
+        - {x: 19, y: -20}
+        - {x: 27, y: 1}
+        - {x: 27, y: 19}
+        - {x: 23, y: 24}
     - name: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093_\u30B8\u30E3\u30F3\u30D7_SHOT_2"
       rect:
         serializedVersion: 2
@@ -78,6 +107,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 15}
+        - {x: 13, y: 12}
+        - {x: 13, y: 18}
+        - {x: 8, y: 25}
+        - {x: -7, y: 25}
+        - {x: -15, y: 17}
+        - {x: -15, y: -29}
+        - {x: 13, y: -29}
+        - {x: 27, y: -1}
+        - {x: 27, y: 12}
+        - {x: 26, y: 15}
     - name: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093_\u30B8\u30E3\u30F3\u30D7_SHOT_3"
       rect:
         serializedVersion: 2
@@ -88,6 +129,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 25}
+        - {x: 0, y: 25}
+        - {x: -14, y: 23}
+        - {x: -16, y: 5}
+        - {x: -16, y: -29}
+        - {x: 7, y: -29}
+        - {x: 26, y: 0}
+        - {x: 27, y: 3}
+        - {x: 27, y: 15}
     - name: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093_\u30B8\u30E3\u30F3\u30D7_SHOT_4"
       rect:
         serializedVersion: 2
@@ -98,6 +149,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 26}
+        - {x: -10, y: 26}
+        - {x: -29, y: 17}
+        - {x: -29, y: -10}
+        - {x: -3, y: -26}
+        - {x: 13, y: -26}
+        - {x: 27, y: -4}
+        - {x: 27, y: 14}
+        - {x: 26, y: 16}
     - name: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093_\u30B8\u30E3\u30F3\u30D7_SHOT_5"
       rect:
         serializedVersion: 2
@@ -108,6 +169,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 25}
+        - {x: -29, y: -2}
+        - {x: -8, y: -26}
+        - {x: 18, y: -26}
+        - {x: 27, y: -14}
+        - {x: 27, y: 25}
     - name: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093_\u30B8\u30E3\u30F3\u30D7_SHOT_6"
       rect:
         serializedVersion: 2
@@ -118,6 +186,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: 27}
+        - {x: 15, y: 32}
+        - {x: -20, y: 32}
+        - {x: -20, y: 8}
+        - {x: -9, y: -31}
+        - {x: 9, y: -31}
+        - {x: 23, y: -18}
+        - {x: 27, y: 0}
     - name: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093_\u30B8\u30E3\u30F3\u30D7_SHOT_7"
       rect:
         serializedVersion: 2
@@ -128,6 +205,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 29}
+        - {x: 2, y: 32}
+        - {x: -13, y: 32}
+        - {x: -17, y: 26}
+        - {x: -17, y: 8}
+        - {x: -6, y: -31}
+        - {x: 13, y: -31}
+        - {x: 27, y: -13}
+        - {x: 27, y: 11}
+        - {x: 26, y: 12}
     - name: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093_\u30B8\u30E3\u30F3\u30D7_SHOT_8"
       rect:
         serializedVersion: 2
@@ -138,6 +226,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 19}
+        - {x: -28, y: 12}
+        - {x: -28, y: 4}
+        - {x: -15, y: -6}
+        - {x: -11, y: -31}
+        - {x: -6, y: -35}
+        - {x: 20, y: -35}
+        - {x: 27, y: -20}
+        - {x: 27, y: 14}
+        - {x: 12, y: 19}
+    outline: []
   spritePackingTag: 
   userData: 
   assetBundleName: 
