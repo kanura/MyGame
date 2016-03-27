@@ -1,7 +1,9 @@
 fileFormatVersion: 2
 guid: 820f6b87476958c41bed1cac84f24705
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093_\u5F85\u6A5F_SHOT_0"
+    21300002: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093_\u5F85\u6A5F_SHOT_1"
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -15,7 +17,7 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
@@ -40,7 +42,7 @@ TextureImporter:
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 30
   alphaIsTransparency: 1
@@ -58,6 +60,20 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: -27}
+        - {x: 15, y: -27}
+        - {x: 23, y: -5}
+        - {x: 23, y: 13}
+        - {x: 14, y: 22}
+        - {x: -16, y: 22}
+        - {x: -32, y: 16}
+        - {x: -32, y: -13}
+        - {x: -17, y: -27}
+        - {x: -4, y: -27}
+        - {x: -2, y: -25}
+        - {x: -2, y: -22}
+        - {x: -2, y: -24}
     - name: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093_\u5F85\u6A5F_SHOT_1"
       rect:
         serializedVersion: 2
@@ -68,6 +84,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 22}
+        - {x: -22, y: 22}
+        - {x: -27, y: 20}
+        - {x: -27, y: -24}
+        - {x: -21, y: -27}
+        - {x: 13, y: -27}
+        - {x: 25, y: -1}
+        - {x: 25, y: 18}
+    outline: []
   spritePackingTag: 
   userData: 
   assetBundleName: 
