@@ -2,7 +2,7 @@
 
 public class TitleManager : MonoBehaviour
 {
-	public string nextSceneName = "Practise";
+	public string nextSceneName = "StageSelectScene";
 
 	// タイトル
 	private GameObject title;

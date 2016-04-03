@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class GoalScript : MonoBehaviour {
-
+	[SerializeField] GameObject GameManager;
 	// Use this for initialization
 	void Start () {
 	
@@ -15,5 +15,7 @@ public class GoalScript : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D collider){
 		Debug.Log ("on trigger enter 2D in Goal script");
+		GameManager.GetComponent<GameManagerScript> ().ResetAllFlags ();
+		GameManager.GetComponent<GameManagerScript> ().GameClear = true;
 	}
 }
