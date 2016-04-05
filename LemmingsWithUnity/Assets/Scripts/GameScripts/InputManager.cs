@@ -7,6 +7,7 @@ public class InputManager : MonoBehaviour {
 	// parameters
 	private int num = 0;
 	private float ChangeAngle = 15.0f;
+	private int ChangeAngleCount = 0;
 	// クリックした位置座標
 	private Vector3 clickPosition;
 	// 現在描画中のspriteRender
@@ -16,6 +17,8 @@ public class InputManager : MonoBehaviour {
 	// GameObjects for ActButtonEvent
 	[SerializeField] GameObject MagObject;//for 3
 	[SerializeField] GameObject AllGroundObjects;//for 4
+	// GameObjects of Manager
+	[SerializeField] GameObject ParameterManager;
 
 	// Use this for initialization
 	void Start () {
@@ -24,6 +27,8 @@ public class InputManager : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
+		//temp part
+		if(ChangeAngleCount>0) ChangeAngleByStep();
 		if (Input.anyKeyDown && !Input.GetMouseButtonDown (0)) UpdateNum ();
 		// マウス入力で左クリックをした瞬間
 		if (Input.GetMouseButtonDown(0) && num != 0) {
@@ -37,6 +42,7 @@ public class InputManager : MonoBehaviour {
 				// ScreenToWorldPoint(位置(Vector3))：スクリーン座標をワールド座標に変換する
 				Instantiate (Prefabs [num], Camera.main.ScreenToWorldPoint (clickPosition), Prefabs [num].transform.rotation);
 			}
+			UpdateEnergy (num+1);
 		}
 	}
 
@@ -81,13 +87,24 @@ public class InputManager : MonoBehaviour {
 	}
 
 	public void ChangeGravity(){
-		AllGroundObjects.transform.Rotate(new Vector3 (0, 0, ChangeAngle));
+		ChangeAngleCount = 60;
+		//AllGroundObjects.transform.Rotate(new Vector3 (0, 0, ChangeAngle));
 		// 4秒かけて、y軸を260度回転
 		//iTween.RotateTo(gameObject, iTween.Hash("y", 260, "time", 4.0f));
+
+	}
+
+	public void ChangeAngleByStep(){
+		AllGroundObjects.transform.Rotate(new Vector3 (0, 0, ChangeAngle/60f));
+		ChangeAngleCount--;
 	}
 
 	public void ClickButton3(){
 		if (MagObject.active) Debug.Log ("mag.active");
 		MagObject.SetActive (true);
+	}
+
+	public void UpdateEnergy(int num){
+		ParameterManager.GetComponent<ParameterManager> ().AddEnergy (-num);
 	}
 }

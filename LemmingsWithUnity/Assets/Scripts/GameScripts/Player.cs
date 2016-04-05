@@ -5,22 +5,18 @@ public class Player : MonoBehaviour {
 
 	public float speed = 4f; //歩くスピード
 
-	//********** 開始 **********//
 	public float jumpPower = 700; //ジャンプ力
 	public LayerMask groundLayer; //Linecastで判定するLayer
-	//********** 終了 **********//
 	public GameObject mainCamera;
 	private Rigidbody2D rigidbody2D;
 	private Animator anim;
-	//********** 開始 **********//
 	private bool isGrounded; //着地判定
-	//********** 終了 **********//
 
 	void Start () {
 		anim = GetComponent<Animator>();
 		rigidbody2D = GetComponent<Rigidbody2D>();
 	}
-	//********** 開始 **********//
+
 	void Update ()
 	{
 		//Linecastでユニティちゃんの足元に地面があるか判定
@@ -51,7 +47,6 @@ public class Player : MonoBehaviour {
 		anim.SetBool("IsJumping",isJumping);
 		anim.SetBool("IsFalling",isFalling);
 	}
-	//********** 終了 **********//
 
 	void FixedUpdate ()
 	{
